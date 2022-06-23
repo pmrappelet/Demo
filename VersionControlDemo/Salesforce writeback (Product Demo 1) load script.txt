@@ -1,0 +1,63 @@
+///$tab Main
+SET ThousandSep='.';
+SET DecimalSep=',';
+SET MoneyThousandSep='.';
+SET MoneyDecimalSep=',';
+SET MoneyFormat='#.##0,00 €;-#.##0,00 €';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='D/MM/YYYY';
+SET TimestampFormat='D/MM/YYYY hh:mm:ss[.fff]';
+SET FirstWeekDay=0;
+SET BrokenWeeks=0;
+SET ReferenceDay=4;
+SET FirstMonthOfYear=1;
+SET CollationLocale='nl-BE';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='jan.;feb.;mrt.;apr.;mei;jun.;jul.;aug.;sep.;okt.;nov.;dec.';
+SET LongMonthNames='januari;februari;maart;april;mei;juni;juli;augustus;september;oktober;november;december';
+SET DayNames='ma;di;wo;do;vr;za;zo';
+SET LongDayNames='maandag;dinsdag;woensdag;donderdag;vrijdag;zaterdag;zondag';
+SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y';
+
+
+LIB CONNECT TO 'Product Demo Apps:Salesforce_BULK';
+
+
+Opportunities: 
+LOAD Id, 
+	LastModifiedDate as "Last Modified Date", 
+	blendr__Region__c as "Region", 
+	blendr__Opportunity_Amount_USD__c as "Opportunity Amount USD", 
+	blendr__Route_To_Market__c as "Route To Market", 
+	blendr__Supplies_Subgroup__c as "Supplies Subgroup", 
+	blendr__Supplies_Group__c as "Supplies Group", 
+	blendr__Elapsed_Days_In_Sales_Stage__c as "Elapsed Days In Sales Stage", 
+	blendr__Stage__c as "Stage";
+    //blendr__Opportunity_Owner__c;
+
+SELECT Id,
+	LastModifiedDate,
+	blendr__Region__c,
+	blendr__Opportunity_Amount_USD__c,
+	blendr__Route_To_Market__c,
+	blendr__Supplies_Subgroup__c,
+	blendr__Supplies_Group__c,
+	blendr__Elapsed_Days_In_Sales_Stage__c,
+	blendr__Stage__c
+FROM blendr__Opportunities__c;
+
+"Stage Values":
+Load * Inline [
+"Stage Enum"
+Open
+Closed Won
+Closed Lost
+];
+
+"Opportunity Owners":
+Load * Inline [
+"Opportunity Enum"
+Emile Sell
+Piet-Michiel
+John Dho
+];
