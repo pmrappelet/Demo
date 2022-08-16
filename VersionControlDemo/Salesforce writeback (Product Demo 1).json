@@ -30,20 +30,3 @@ VARIABLES
 {"qName":"Feedback","qDefinition":"We've updated x opportunities with the new manager :","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0b6711df-43b2-4302-97fe-8b46c1bf9332","qType":"variable"},"qData":[]}
 
 FIELDS
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":11,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":3,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":9,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
-{"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
-{"qName":"Id","qCardinal":99,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Last Modified Date","qCardinal":3,"qTags":["$numeric","$timestamp"],"qSrcTables":["Opportunities"]}
-{"qName":"Region","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Opportunity Amount USD","qCardinal":67,"qTags":["$numeric","$integer"],"qSrcTables":["Opportunities"]}
-{"qName":"Route To Market","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Supplies Subgroup","qCardinal":11,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Supplies Group","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Elapsed Days In Sales Stage","qCardinal":43,"qTags":["$numeric","$integer"],"qSrcTables":["Opportunities"]}
-{"qName":"Stage","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Stage Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Stage Values"]}
-{"qName":"Opportunity Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunity Owners"]}
