@@ -1,6 +1,6 @@
 
 SHEETS
-{"qInfo":{"qId":"a250f3b6-1952-47ad-a463-645c082c2bb7","qType":"sheet"},"qMeta":{"title":"Button Example","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"a250f3b6-1952-47ad-a463-645c082c2bb7","approved":false,"published":false,"owner":"auth0|1cf3c5d124aa936ca2ac82b9dc9ae1c188b5b2278a9a484786540d04824d5717","ownerId":"SRN4MV9Kt0Mt2OYE7ZBiw19KzbpIugoB","createdDate":"2022-06-15T14:57:03.886Z","modifiedDate":"2022-08-31T11:56:34.798Z","publishTime":true,"privileges":["read","update","delete","publish"]},"qData":[]}
+{"qInfo":{"qId":"a250f3b6-1952-47ad-a463-645c082c2bb7","qType":"sheet"},"qMeta":{"title":"Button Example","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"a250f3b6-1952-47ad-a463-645c082c2bb7","approved":false,"published":false,"owner":"auth0|1cf3c5d124aa936ca2ac82b9dc9ae1c188b5b2278a9a484786540d04824d5717","ownerId":"SRN4MV9Kt0Mt2OYE7ZBiw19KzbpIugoB","createdDate":"2022-06-15T14:57:03.886Z","modifiedDate":"2022-08-31T11:58:44.812Z","publishTime":true,"privileges":["read","update","delete","publish"]},"qData":[]}
 {"qInfo":{"qId":"623d1012-15f9-4732-809c-e4e9b77ba3ae","qType":"sheet"},"qMeta":{"title":"Writeback Demo","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"623d1012-15f9-4732-809c-e4e9b77ba3ae","approved":false,"published":false,"owner":"auth0|1cf3c5d124aa936ca2ac82b9dc9ae1c188b5b2278a9a484786540d04824d5717","ownerId":"SRN4MV9Kt0Mt2OYE7ZBiw19KzbpIugoB","createdDate":"2022-06-15T20:38:05.385Z","modifiedDate":"2022-08-18T13:12:52.121Z","privileges":["read","update","delete","publish"]},"qData":[]}
 {"qInfo":{"qId":"e1e0d270-5e50-4317-85ea-ee45278ea671","qType":"sheet"},"qMeta":{"title":"My new sheet (1)","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"e1e0d270-5e50-4317-85ea-ee45278ea671","approved":false,"published":true,"owner":"auth0|763f637f15d88fe64d40773c68ae258f5ed099e69436be138353a65b1ea7c2e6","ownerId":"51cn2p8vOjhbdgeOvz14jQIL4Zp_P4SG","createdDate":"2022-06-15T12:46:38.843Z","modifiedDate":"2022-06-15T13:58:44.230Z","publishTime":"2022-06-15T13:58:44.230Z","privileges":["read","publish"]},"qData":[]}
 
@@ -8,9 +8,10 @@ OBJECTS ON SHEETS
 {"name":"6065b1c4-2e24-483d-9fa0-6f3166519ade","type":"table","col":0,"row":0,"colspan":16,"rowspan":7,"bounds":{"y":0,"x":0,"width":66.66666666666666,"height":58.333333333333336}}
 {"name":"5c64b08e-68ba-4fd4-8394-c12fd6e88118","type":"filterpane","col":16,"row":0,"colspan":8,"rowspan":1,"bounds":{"y":0,"x":66.66666666666666,"width":33.33333333333333,"height":8.333333333333332}}
 {"name":"0c78b9b1-dc60-493a-a5ef-7e7bc06dc4df","type":"action-button","col":16,"row":1,"colspan":4,"rowspan":1,"bounds":{"y":8.333333333333332,"x":66.66666666666666,"width":16.666666666666664,"height":8.333333333333332}}
-{"name":"be8862bf-b079-4657-9293-457450f3f096","type":"text-image","col":0,"row":7,"colspan":4,"rowspan":5,"bounds":{"y":58.333333333333336,"x":0,"width":16.666666666666664,"height":41.66666666666667}}
+{"name":"be8862bf-b079-4657-9293-457450f3f096","type":"text-image","col":0,"row":7,"colspan":4,"rowspan":2,"bounds":{"y":58.333333333333336,"x":0,"width":16.666666666666664,"height":16.666666666666664}}
 {"name":"PWLX","type":"action-button","col":16,"row":5,"colspan":4,"rowspan":2,"bounds":{"y":41.66666666666667,"x":66.66666666666666,"width":16.666666666666664,"height":16.666666666666664}}
 {"name":"xbTJUXt","type":"filterpane","col":16,"row":3,"colspan":4,"rowspan":2,"bounds":{"y":25,"x":66.66666666666666,"width":16.666666666666664,"height":16.666666666666664}}
+{"name":"SnFNZ","type":"text-image","col":0,"row":9,"colspan":4,"rowspan":1,"bounds":{"y":75,"x":0,"width":16.666666666666664,"height":8.333333333333332}}
 {"name":"06b71826-0dfa-4cea-9f3f-a9bd06161046","type":"table","col":0,"row":0,"colspan":16,"rowspan":7,"bounds":{"y":0,"x":0,"width":66.66666666666666,"height":58.333333333333336}}
 {"name":"d1c348e0-56c3-4dee-a3ef-b8511c449f18","type":"filterpane","col":16,"row":0,"colspan":8,"rowspan":1,"bounds":{"y":0,"x":66.66666666666666,"width":33.33333333333333,"height":8.333333333333332}}
 {"name":"c09b71d0-65c3-46fc-9a3e-daeab238d53c","type":"action-button","col":16,"row":1,"colspan":4,"rowspan":1,"bounds":{"y":8.333333333333332,"x":66.66666666666666,"width":16.666666666666664,"height":8.333333333333332}}
@@ -44,6 +45,6 @@ FIELDS
 {"qName":"Supplies Subgroup","qCardinal":11,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Supplies Group","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Elapsed Days In Sales Stage","qCardinal":43,"qTags":["$numeric","$integer"],"qSrcTables":["Opportunities"]}
-{"qName":"Stage","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
+{"qName":"Stage","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Stage Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Stage Values"]}
 {"qName":"Opportunity Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunity Owners"]}
