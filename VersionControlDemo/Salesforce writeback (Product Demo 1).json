@@ -45,13 +45,13 @@ FIELDS
 {"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":9,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
 {"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
 {"qName":"Id","qCardinal":99,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
-{"qName":"Last Modified Date","qCardinal":7,"qTags":["$numeric","$timestamp"],"qSrcTables":["Opportunities"]}
+{"qName":"Last Modified Date","qCardinal":10,"qTags":["$numeric","$timestamp"],"qSrcTables":["Opportunities"]}
 {"qName":"Region","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Opportunity Amount USD","qCardinal":67,"qTags":["$numeric","$integer"],"qSrcTables":["Opportunities"]}
 {"qName":"Route To Market","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Supplies Subgroup","qCardinal":11,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Supplies Group","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Elapsed Days In Sales Stage","qCardinal":43,"qTags":["$numeric","$integer"],"qSrcTables":["Opportunities"]}
-{"qName":"Stage","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
+{"qName":"Stage","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["Opportunities"]}
 {"qName":"Stage Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Stage Values"]}
 {"qName":"Opportunity Enum","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Opportunity Owners"]}
